@@ -126,7 +126,7 @@ function updateTotal() {
     let ProductBox = ProductBoxes[i];
     let ProductPrice = ProductBox.getElementsByClassName("card-price")[0]; // Fetch specific product price
     let ProductQuantity = ProductBox.getElementsByClassName("card-quantity")[0];
-    let Price = parseFloat(ProductPrice.innerText.replace("$", ""));
+    let Price = parseFloat(ProductPrice.innerText.replace("₹", ""));
     let Quantity = ProductQuantity.value;
     Total = Total + (Price * Quantity);
   }
@@ -135,7 +135,7 @@ function updateTotal() {
   Total = Math.round(Total * 100) / 100;
   
   // Update the value in total
-  document.getElementsByClassName("total")[0].innerText = "$" + Total;
+  document.getElementsByClassName("total")[0].innerText = "₹" + Total;
 }
 // Search  Bar Functionality
 const search = () =>{

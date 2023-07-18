@@ -4,10 +4,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scroll-padding-top: 2rem;
+    scroll-padding-top: 7rem;
     list-style: none;
     text-decoration: none;
 }
+
 
 :root {
     --main-color: tomato;
@@ -18,7 +19,19 @@
 img {
     width: 100%;
 }
+#head{
+    background-color: rgb(186, 184, 184);
+    height: 80px;
+    /* width: auto; */
+padding-left: 20rem;
+padding-right: 20rem;
+   max-width: 13000px;
+    
+}
+.body{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEBIVFRUVFRUVFRUVFRUVFRUVFRUWFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBAb/xAAfEAEBAQEAAgIDAQAAAAAAAAAAARECAxIhYTFBcQT/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+0/zeLI93j4Z8XL0cQDzy6c8rmOsgDmOkgkbwEPU6YAiwyoHPpcw9LkBRGrXPQdNVjPs0CSAEskGKdVE6A4qhQEhsIAjFFoM2MWOuCwHGxz6j0dRi8g8/XLz+Xh7Oo4eQHgvCemz6QPRxy788s8cuvEBvmOkjM5dOQMhhioCiGgGpANOgz0DV6gyG8FgMyNyCEEqoqDNDSBkY36s4CFa1UGUlICw9QVoAMGtAGLy6OfQOXUcu+XfqOffwDy3lO2IHo5jpxGeY6SA1GoPVsFEkAoKBJIA1KzaJQW1WFAMNRoMyrBjUBKRNAzYrCqDGHFQCwY0x0CoWLAVOsWtaC+hjUgwGa598ujHQOCbsQPRy6xy5jrAb5NgjVAFlSgEkCMiNBmxQgCIZDgBJYDNhxHQZpVQAdUs9QEmY0CoaZgKVmkUGSEDWqDloGaw6Vig5VNVA9HDcjPLpAMI1AWWtFBkqqAYqNUAnBCCsQtIANWMyAicUgDBWqzQFWIgx6nCqDni10YwBF0IqAwzk4cBYGqIDn1Q7WOfUBjA1iB25bjHDQHUEDRZagM1RoAFqqBNay1KCjTMplAUQ1A1BYtQCimsgsWNRm0BgrcFBkG1nqghqhwFzCv4JQVHJMBWMX8unTl1yDNqViB25axckAlUDUWqCwDqwSNwGbGZHSsAoqloFKACsUIJGDAFgaAM1Q4QGq04gZZ6jSBiNYkAFho0FPhb9KHroFB6iGgyVsQN8ts8HQWKEzkBFThwGZGokCZxqjQHQxqjQTLVAIwoDDAoAqXSAUyigDrNNEoEFAIKeYLQZOLloGcFb6gAYqVgOWFvEB5rWMctA01rHLegDq0AYLUASRlAVDToLFqPPIJJaBHscZwEdBBmg1aCrOEAaoqzKDVoUOAza1BiA1k6KBIiBUCoFz024cusBvmNUcU0EkgBqFBYkgA0gC1zWTANiGIFUlgKEGgKKayBsGKGgqzhkQCHWaQIxRYBkFhQCDqt4x0DGpVA58V15jjw7cA68tMwygUYqABEBRGxAMFa0ADiQJYqtBVEAcSqBmiRqiAlaaMAKrGaCai4jVgML9tSGcgzCQArna6Vy7Bn2TCBc115qQOsMSA60kCwFAgkCxlIDEkCVSBJIDoSBCJAdUqQLoSakCk+T1EgEaKBms2hANY7SBxsSQP/2Q==");
 
+}
 body {
     color: var(--text-color);
 }
@@ -54,19 +67,22 @@ header {
     padding: 0.3rem;
     font-size: .7rem;
     width: 30%;
-    border: solid  rgb(143, 182, 84);
+    border: solid  rgb(0, 0, 0);
     border-radius: .6rem;
-    outline-color: rgb(74, 100, 35);
+    outline-color: rgb(0, 0, 0);
 }
 .icon {
     color: var(--text-color);
-    font-weight: 400;
+    font-weight: 1000;
+    text-decoration: solid;
     font-size: 1.2rem;
-    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
 }
 
 #cart-icon {
-    background: rgb(143, 182, 84);
+    background: rgb(23, 26, 18);
     font-size: 0.9rem;
     color: white;
     padding: 7px;
@@ -252,7 +268,7 @@ header {
     position: absolute;
     right: 0;
     bottom: 0;
-    background: rgb(143, 182, 84);
+    background: rgb(22, 25, 18);
     font-size: 0.9rem;
     color: white;
     padding: 7px;
