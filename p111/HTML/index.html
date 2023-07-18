@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-Cart E-Comerace</title>
+    <!--CSS link-->
+    <link rel="stylesheet" href="style.css">
+    <!-- font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Lato&family=Poppins&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+        
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="nav container">
+            <a href="#" class="icon">E-Comerace</a>
+            <input type="text" placeholder="Search Product" onkeyup="search()" id="searchbox">
+            <button id="cart-icon">Add Cart</button>
+            <!-- card -->
+            <div class="card-popup">
+                <h2 class="card-title">Your Card</h2>
+                <!-- content -->
+                <div class="card-content">
+                    <!-- <div class="card-box">
+                        <img src="img/product1.jpg" alt="" class="card-img">
+                        <div class="card-data">
+                            <div class="card-name">Adidas Hud</div>
+                            <div class="card-price">$35.09</div>
+                            <input type="number" value="1" class="card-quantity">
+                        </div>
+                        <i class="fa-solid fa-trash p-remove" ></i>
+                    </div> -->
+                </div>
+                    <!-- card total -->
+                    <div class="totalbox">
+                        <div class="card-total"> Total</div>
+                        <div class="total"> 0$</div>
+                    </div>
+                <!-- buy buttton -->
+                <button  class="buy">Buy Product</button>
+                <i class="fa-solid fa-circle-xmark" id="close-card"></i>
+                <form id="payment-form">
+                    <div>
+                      <label for="card-element">Card Details</label>
+                      <div id="card-element"></div>
+                    </div>
+                    <button type="submit" class="Pay">Submit Payment</button>
+                  </form>
+                  
+            </div>
+        </div>
+    </header>
+    <!-- Shop Porduct -->
+    
+    <section class="shop container">
+        <h1 class="shop-title"> Shop Porduct</h1>
+        <!-- shop content -->
+        <div class="shop-content" id="shop-content">
+            <!-- box1 -->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product">
+                <h3 class="p-name">T-Shirt</h3>
+                <span class="prize">$23</span>
+                <button type="submit" class="ad-btn">Add</button>
+            </div>
+            <!-- box2 -->
+            <div class="product-box">
+                <img src="img/product2.jpg" alt="" class="product">
+                <h3 class="p-name">HeadPhone</h3>
+                <span class="prize">$20</span>
+                <button type="submit" class="ad-btn">Add</button>
+            </div>
+            <!-- box3 -->
+            <div class="product-box">
+                <img src="img/product3.jpg" alt="" class="product">
+                <h3 class="p-name">T-Shirt and Jeanes</h3>
+                <span class="prize">$55</span>
+                <button type="submit" class="ad-btn">Add</button>
+            </div>
+            <!-- box4 -->
+            <div class="product-box">
+                <img src="img/product4.jpg" alt="" class="product">
+                <h3 class="p-name">Adidas WaterBotle</h3>
+                <span class="prize">$10</span>
+                <button type="submit" class="ad-btn">Add</button>
+            </div>
+            <!-- box5 -->
+            <div class="product-box">
+                <img src="img/product5.jpg" alt="" class="product">
+                <h3 class="p-name">Galasses</h3>
+                <span class="prize">$15</span>
+                <button type="submit" class="ad-btn">Add</button>
+            </div>
+            <!-- box6 -->
+            <div class="product-box">
+                <img src="img/product6.jpg" alt="" class="product">
+                <h3 class="p-name">Adidas Cap</h3>
+                <span class="prize">$5</span>
+                <button type="submit" class="ad-btn">Add</button>
+            </div>
+            <!-- box6 -->
+            <div class="product-box">
+                <img src="img/product7.jpg" alt="" class="product">
+                <h3 class="p-name">Adidas Bag</h3>
+                <span class="prize">$100</span>
+                <button type="submit" class="ad-btn">Add</button>
+            </div>
+            <!-- box6 -->
+            <div class="product-box">
+                <img src="img/product8.jpg" alt="" class="product">
+                <h3 class="p-name">Adidas Shoes</h3>
+                <span class="prize">$50</span>
+                <button type="submit" class="ad-btn">Add</button>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/355a392082.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
